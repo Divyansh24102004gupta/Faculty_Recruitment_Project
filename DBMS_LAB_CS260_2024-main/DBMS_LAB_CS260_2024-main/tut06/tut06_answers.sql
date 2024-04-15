@@ -1,9 +1,6 @@
 -- General Instructions
 -- 1.	The .sql files are run automatically, so please ensure that there are no syntax errors in the file. If we are unable to run your file, you get an automatic reduction to 0 marks.
 -- Comment in MYSQL 
--- General Instructions
--- 1.	The .sql files are run automatically, so please ensure that there are no syntax errors in the file. If we are unable to run your file, you get an automatic reduction to 0 marks.
--- Comment in MYSQL 
 
 -- 1. Write a query to display the first name and last name of all students along with their enrolled courses.
 SELECT s.first_name, s.last_name, c.course_name
