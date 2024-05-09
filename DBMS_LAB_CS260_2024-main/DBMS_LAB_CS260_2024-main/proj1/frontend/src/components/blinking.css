@@ -1,0 +1,33 @@
+.blinky{
+    /* border: 2px solid black; */
+    position: relative;
+    padding-top: 1%;
+    font-family: serif;
+    /* box-shadow: 0px 1px 30px 1px #ff9544cf;   */
+    border-radius: 10px;
+    width: 50%;
+    /* height: auto; */
+    font-size: xx-large;
+    /* padding: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.blinky {
+    color: red; /* Make text red */
+    animation: blink 1s infinite; /* Apply blink animation */
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
