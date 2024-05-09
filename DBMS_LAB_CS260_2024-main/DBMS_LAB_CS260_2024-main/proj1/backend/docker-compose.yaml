@@ -1,0 +1,11 @@
+services:
+  backend:
+    build: backend/.
+    # image: facutly-recruitment-project2-backend:latest
+    ports:
+      - "8000:8000" # Corrected port mapping syntax
+  frontend:
+    build: frontend/.
+    # image: facutly-recruitment-project2-frontend:latest
+    ports:
+      - "5173:5173" # Corrected port mapping syntax
